@@ -370,7 +370,7 @@ el algoritmo 2 parece ser mejor.
 
 ```{block2, type='ejercicio'}
 - ¿Qué pasaría si incorrectamente usaras la prueba de dos muestras para este 
-ejemplo? ¿Qué cosa cambia en la fórmula de la estadística de Wald?
+ejemplo? En clase calculamos los dos errores estandar(uno asumiendo poblaciones distitntas y otro como la desv. estandar muestral de las $D_i$) y por coicnidencia resultan igualesm pero conceptualmente son diferentes. ¿Qué cosa cambia en la fórmula de la estadística de Wald? el denominador. Cambia $\frac{S}{\sqrt{n}}$ por $\sqrt{\sigma_X^2+\sigma_Y^2}$
 ```
 
 ## Pruebas de cociente de verosimilitud {-}
