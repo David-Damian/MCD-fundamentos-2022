@@ -335,7 +335,7 @@ $$\hat{\mathsf{ee}} = \sqrt{1/I_n(\hat \theta_n)}.$$
 Esto último nos permite constuir intervalos de confianza, por ejemplo al 95\%, a través de 
 $$ \hat \theta_n \pm 2 \, \hat{\mathsf{ee}}.$$
 Asimismo, el teorema de Normalidad asintótica nos permite establecer que el $\textsf{MLE}$ es **asíntoticamente insesgado**. Es decir, 
-$$\lim_{n \rightarrow n}\mathbb{E}[\hat \theta_n] =  \theta^*.$$
+$$\lim_{n \rightarrow \infty}\mathbb{E}[\hat \theta_n] =  \theta^*.$$
 
 ```{block, type = 'mathblock'}
 
